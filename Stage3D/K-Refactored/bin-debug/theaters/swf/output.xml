@@ -1,0 +1,360 @@
+<report>
+  <scripts>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/events/MuleEvent.as" mod="1310336808000" size="656" optimizedsize="332">
+      <def id="com.adam.events:MuleEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adobe/utils/AGALMiniAssembler.as" mod="1328647836000" size="17048" optimizedsize="10499">
+      <def id="com.adobe.utils:AGALMiniAssembler" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.utils:Endian" />
+      <dep id="RegExp" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/Sprite3D.as" mod="1355869276000" size="4579" optimizedsize="2222">
+      <def id="com.app.view:Sprite3D" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.app.view:KeyboardController" />
+      <dep id="flash.geom:Point" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/Stats.as" mod="1351710236000" size="2667" optimizedsize="1686">
+      <def id="com.app.view:Stats" />
+      <pre id="flash.text:TextField" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.text:TextFormat" />
+      <dep id="AS3" />
+      <dep id="Math" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="flash.utils:getTimer" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:IRepeaterClient)" mod="1303837771982" size="1114" optimizedsize="321">
+      <def id="mx.core:IRepeaterClient" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/db/SQLLoader.as" mod="1344628692000" size="2998" optimizedsize="1581">
+      <def id="com.adam.db:SQLLoader" />
+      <pre id="Object" />
+      <dep id="flash.net:URLRequestMethod" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.net:URLRequest" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.net:URLVariables" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.net:URLLoader" />
+    </script>
+    <script name="com/app/view/View3D_TextureBitmap.as" mod="1352392954000" size="483" optimizedsize="320">
+      <def id="com.app.view:View3D_TextureBitmap" />
+      <pre id="mx.core:BitmapAsset" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:IAssetLayoutFeatures)" mod="1303837772451" size="4450" optimizedsize="867">
+      <def id="mx.core:IAssetLayoutFeatures" />
+      <pre id="Object" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Matrix" />
+      <dep id="flash.geom:Matrix3D" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/utils/AppData.as" mod="1349965506000" size="2204" optimizedsize="1291">
+      <def id="com.adam.utils:AppData" />
+      <pre id="Object" />
+      <dep id="com.adam.debug:DebugWindow" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="com.adam.events:EventManager" />
+      <dep id="Error" />
+      <dep id="flash.display:MovieClip" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/events/EventManager.as" mod="1331149486000" size="1409" optimizedsize="739">
+      <def id="com.adam.events:EventManager" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adobe/utils/PerspectiveMatrix3D.as" mod="1298753678000" size="4409" optimizedsize="2312">
+      <def id="com.adobe.utils:PerspectiveMatrix3D" />
+      <pre id="flash.geom:Matrix3D" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Vector3D" />
+      <dep id="Math" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/controller/Controller.as" mod="1355510194000" size="2208" optimizedsize="1235">
+      <def id="com.app.controller:Controller" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.adam.db:SQLProxy" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/SpriteSheet.as" mod="1355943758000" size="4061" optimizedsize="2370">
+      <def id="com.app.view:SpriteSheet" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.display3D.textures:Texture" />
+      <dep id="flash.display3D:Context3DTextureFormat" />
+      <dep id="flash.display3D:Context3D" />
+      <dep id="flash.display:BitmapData" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="flash.geom:Matrix" />
+      <dep id="Math" />
+      <dep id="com.adam.utils:AppData" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/KeyboardController.as" mod="1355517950000" size="5040" optimizedsize="2822">
+      <def id="com.app.view:KeyboardController" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:Event" />
+      <dep id="AS3" />
+      <dep id="flash.events:KeyboardEvent" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/model/Model.as" mod="1331151508000" size="1958" optimizedsize="1131">
+      <def id="com.app.model:Model" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:ILayoutDirectionElement)" mod="1303837772560" size="717" optimizedsize="239">
+      <def id="mx.core:ILayoutDirectionElement" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:BitmapAsset)" mod="1303837772389" size="6920" optimizedsize="3795">
+      <def id="mx.core:BitmapAsset" />
+      <pre id="mx.core:IFlexAsset" />
+      <pre id="mx.core:FlexBitmap" />
+      <pre id="mx.core:ILayoutDirectionElement" />
+      <pre id="mx.core:IFlexDisplayObject" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.display:BitmapData" />
+      <dep id="mx.core:IAssetLayoutFeatures" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="Math" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="flash.system:ApplicationDomain" />
+      <dep id="flash.geom:Point" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:mx_internal)" mod="1303837772435" size="182" optimizedsize="109">
+      <def id="mx.core:mx_internal" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:FlexBitmap)" mod="1303837772857" size="862" optimizedsize="537">
+      <def id="mx.core:FlexBitmap" />
+      <pre id="flash.display:Bitmap" />
+      <dep id="flash.display:BitmapData" />
+      <dep id="AS3" />
+      <dep id="mx.core:mx_internal" />
+      <dep id="Error" />
+      <dep id="mx.utils:NameUtil" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/debug/DebugWindow.as" mod="1331149464000" size="3344" optimizedsize="2064">
+      <def id="com.adam.debug:DebugWindow" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.text:TextField" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/EntityManager.as" mod="1355954428000" size="2813" optimizedsize="1647">
+      <def id="com.app.view:EntityManager" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.app.view:Sprite3DBatch" />
+      <dep id="flash.display3D:Context3D" />
+      <dep id="AS3" />
+      <dep id="com.app.view:Entity" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="com.adam.utils:AppData" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.utils:NameUtil)" mod="1303837778779" size="1666" optimizedsize="1094">
+      <def id="mx.utils:NameUtil" />
+      <pre id="Object" />
+      <dep id="mx.core:IRepeaterClient" />
+      <dep id="SecurityError" />
+      <dep id="flash.utils:getQualifiedClassName" />
+      <dep id="AS3" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="mx.core:mx_internal" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/View3D.as" mod="1355948472000" size="3890" optimizedsize="2461">
+      <def id="com.app.view:View3D" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:Event" />
+      <dep id="com.app.view:Sprite3DBatch" />
+      <dep id="com.app.view:SpriteSheet" />
+      <dep id="flash.display3D:Context3D" />
+      <dep id="flash.display3D:Context3DRenderMode" />
+      <dep id="AS3" />
+      <dep id="flash.display:Bitmap" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.app.view:EntityManager" />
+      <dep id="com.app.view:View3D_TextureBitmap" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/adam/db/SQLProxy.as" mod="1349965470000" size="4231" optimizedsize="2282">
+      <def id="com.adam.db:SQLProxy" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.net:URLVariables" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.adam.db:SQLLoader" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/Entity.as" mod="1355952850000" size="2264" optimizedsize="1256">
+      <def id="com.app.view:Entity" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="com.app.view:Sprite3D" />
+      <dep id="com.adam.utils:AppData" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/Sprite3DBatch.as" mod="1355952680000" size="7666" optimizedsize="4735">
+      <def id="com.app.view:Sprite3DBatch" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.app.view:SpriteSheet" />
+      <dep id="flash.display3D:Context3D" />
+      <dep id="Math" />
+      <dep id="flash.display3D:Program3D" />
+      <dep id="com.adobe.utils:AGALMiniAssembler" />
+      <dep id="flash.display3D:Context3DBlendFactor" />
+      <dep id="flash.geom:Point" />
+      <dep id="flash.display3D:Context3DProgramType" />
+      <dep id="flash.display3D:Context3DVertexBufferFormat" />
+      <dep id="com.adobe.utils:PerspectiveMatrix3D" />
+      <dep id="AS3" />
+      <dep id="__AS3__.vec:Vector" />
+      <dep id="com.app.view:Sprite3D" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="flash.display3D:IndexBuffer3D" />
+      <dep id="flash.geom:Matrix3D" />
+      <dep id="flash.display3D:VertexBuffer3D" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:IFlexAsset)" mod="1303837773029" size="241" optimizedsize="98">
+      <def id="mx.core:IFlexAsset" />
+      <pre id="Object" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/core.swc(mx.core:IFlexDisplayObject)" mod="1303837773201" size="5949" optimizedsize="1339">
+      <def id="mx.core:IFlexDisplayObject" />
+      <pre id="flash.events:IEventDispatcher" />
+      <pre id="flash.display:IBitmapDrawable" />
+      <pre id="Object" />
+      <dep id="flash.accessibility:AccessibilityProperties" />
+      <dep id="AS3" />
+      <dep id="flash.geom:Rectangle" />
+      <dep id="flash.display:DisplayObjectContainer" />
+      <dep id="flash.display:DisplayObject" />
+      <dep id="flash.display:LoaderInfo" />
+      <dep id="flash.display:Stage" />
+      <dep id="flash.geom:Point" />
+      <dep id="flash.geom:Transform" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/com/app/view/View.as" mod="1355510580000" size="2598" optimizedsize="1649">
+      <def id="com.app.view:View" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.app.view:Stats" />
+      <dep id="com.app.view:View3D" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.app.view:KeyboardController" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/K-Refactored/src/Main.as" mod="1355781668000" size="2080" optimizedsize="1370">
+      <def id="Main" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.app.controller:Controller" />
+      <dep id="com.app.view:View" />
+      <dep id="AS3" />
+      <dep id="com.adam.events:EventManager" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.app.model:Model" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="RegExp" />
+    <ext id="flash.system:ApplicationDomain" />
+    <ext id="flash.geom:Matrix" />
+    <ext id="AS3" />
+    <ext id="flash.events:IOErrorEvent" />
+    <ext id="flash.geom:Matrix3D" />
+    <ext id="flash.display3D:Context3DTextureFormat" />
+    <ext id="Error" />
+    <ext id="flash.display:DisplayObject" />
+    <ext id="flash.accessibility:AccessibilityProperties" />
+    <ext id="__AS3__.vec:Vector" />
+    <ext id="flash.net:URLLoader" />
+    <ext id="SecurityError" />
+    <ext id="flash.utils:Endian" />
+    <ext id="flash.geom:Point" />
+    <ext id="flash.events:MouseEvent" />
+    <ext id="flash.display3D:Context3DRenderMode" />
+    <ext id="flash.utils:getQualifiedClassName" />
+    <ext id="flash.utils:getTimer" />
+    <ext id="flash.display3D:Context3DProgramType" />
+    <ext id="flash.utils:ByteArray" />
+    <ext id="Math" />
+    <ext id="flash.display:Bitmap" />
+    <ext id="flash.display3D:VertexBuffer3D" />
+    <ext id="flash.events:Event" />
+    <ext id="flash.display:BitmapData" />
+    <ext id="flash.net:URLRequestMethod" />
+    <ext id="flash.display3D:Context3DVertexBufferFormat" />
+    <ext id="flash.net:URLRequest" />
+    <ext id="flash.geom:Vector3D" />
+    <ext id="flash.display:LoaderInfo" />
+    <ext id="flash.events:IEventDispatcher" />
+    <ext id="flash.geom:Rectangle" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="trace" />
+    <ext id="flash.display3D:Context3DBlendFactor" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="flash.display:IBitmapDrawable" />
+    <ext id="flash.display3D:Context3D" />
+    <ext id="flash.display3D:Program3D" />
+    <ext id="flash.text:TextField" />
+    <ext id="Object" />
+    <ext id="flash.display:MovieClip" />
+    <ext id="flash.net:URLVariables" />
+    <ext id="flash.display:DisplayObjectContainer" />
+    <ext id="flash.text:TextFormat" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.display:Stage" />
+    <ext id="flash.geom:Transform" />
+    <ext id="flash.events:KeyboardEvent" />
+    <ext id="flash.display3D.textures:Texture" />
+    <ext id="flash.display3D:IndexBuffer3D" />
+  </external-defs>
+</report>

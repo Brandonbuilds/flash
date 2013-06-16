@@ -1,0 +1,157 @@
+<report>
+  <scripts>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/utils/AppData.as" mod="1349965506000" size="2202" optimizedsize="1290">
+      <def id="com.adam.utils:AppData" />
+      <pre id="Object" />
+      <dep id="com.adam.debug:DebugWindow" />
+      <dep id="flash.events:MouseEvent" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="com.adam.events:EventManager" />
+      <dep id="Error" />
+      <dep id="flash.display:MovieClip" />
+      <dep id="flash.display:Sprite" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adobe/utils/AGALMiniAssembler.as" mod="1328647836000" size="17005" optimizedsize="10493">
+      <def id="com.adobe.utils:AGALMiniAssembler" />
+      <pre id="Object" />
+      <dep id="flash.utils:ByteArray" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.utils:Endian" />
+      <dep id="RegExp" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="flash.utils:Dictionary" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/db/SQLProxy.as" mod="1349965470000" size="4229" optimizedsize="2281">
+      <def id="com.adam.db:SQLProxy" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.net:URLVariables" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.adam.db:SQLLoader" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/db/SQLLoader.as" mod="1344628692000" size="2998" optimizedsize="1581">
+      <def id="com.adam.db:SQLLoader" />
+      <pre id="Object" />
+      <dep id="flash.net:URLRequestMethod" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.net:URLRequest" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.net:URLVariables" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="flash.events:IOErrorEvent" />
+      <dep id="flash.net:URLLoader" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/debug/DebugWindow.as" mod="1331149464000" size="3342" optimizedsize="2063">
+      <def id="com.adam.debug:DebugWindow" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="trace" />
+      <dep id="flash.text:TextField" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/events/EventManager.as" mod="1331149486000" size="1395" optimizedsize="730">
+      <def id="com.adam.events:EventManager" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:EventDispatcher" />
+      <dep id="AS3" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/app/controller/Controller.as" mod="1331749440000" size="2206" optimizedsize="1234">
+      <def id="com.app.controller:Controller" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.adam.db:SQLProxy" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/Main.as" mod="1351629410000" size="2080" optimizedsize="1370">
+      <def id="Main" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="com.app.controller:Controller" />
+      <dep id="com.app.view:View" />
+      <dep id="AS3" />
+      <dep id="com.adam.events:EventManager" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="com.app.model:Model" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/app/view/View.as" mod="1357932346000" size="4902" optimizedsize="3269">
+      <def id="com.app.view:View" />
+      <pre id="Object" />
+      <pre id="flash.display:Sprite" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="flash.events:Event" />
+      <dep id="flash.display3D:Context3D" />
+      <dep id="flash.display3D:Context3DRenderMode" />
+      <dep id="flash.geom:Vector3D" />
+      <dep id="flash.display3D:Program3D" />
+      <dep id="flash.utils:getTimer" />
+      <dep id="com.adobe.utils:AGALMiniAssembler" />
+      <dep id="Error" />
+      <dep id="flash.display3D:Context3DProgramType" />
+      <dep id="flash.display3D:Context3DVertexBufferFormat" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="flash.display3D:IndexBuffer3D" />
+      <dep id="flash.geom:Matrix3D" />
+      <dep id="flash.events:ErrorEvent" />
+      <dep id="flash.display3D:VertexBuffer3D" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/adam/events/MuleEvent.as" mod="1310336808000" size="657" optimizedsize="332">
+      <def id="com.adam.events:MuleEvent" />
+      <pre id="flash.events:Event" />
+      <dep id="AS3" />
+    </script>
+    <script name="/Users/ariggs/Documents/experiments/Flash/Stage3D/A-Stage3DTest/src/com/app/model/Model.as" mod="1331151508000" size="1956" optimizedsize="1130">
+      <def id="com.app.model:Model" />
+      <pre id="Object" />
+      <dep id="com.adam.events:MuleEvent" />
+      <dep id="AS3" />
+      <dep id="com.adam.utils:AppData" />
+      <dep id="Error" />
+    </script>
+  </scripts>
+  <external-defs>
+    <ext id="RegExp" />
+    <ext id="AS3" />
+    <ext id="flash.events:IOErrorEvent" />
+    <ext id="flash.geom:Matrix3D" />
+    <ext id="Error" />
+    <ext id="flash.net:URLLoader" />
+    <ext id="flash.utils:Endian" />
+    <ext id="flash.events:MouseEvent" />
+    <ext id="flash.display3D:Context3DRenderMode" />
+    <ext id="flash.utils:getTimer" />
+    <ext id="flash.display3D:Context3DProgramType" />
+    <ext id="flash.utils:ByteArray" />
+    <ext id="flash.display3D:VertexBuffer3D" />
+    <ext id="flash.events:Event" />
+    <ext id="flash.net:URLRequestMethod" />
+    <ext id="flash.display3D:Context3DVertexBufferFormat" />
+    <ext id="flash.net:URLRequest" />
+    <ext id="flash.geom:Vector3D" />
+    <ext id="flash.utils:Dictionary" />
+    <ext id="flash.events:ErrorEvent" />
+    <ext id="trace" />
+    <ext id="flash.events:EventDispatcher" />
+    <ext id="flash.display3D:Context3D" />
+    <ext id="flash.display3D:Program3D" />
+    <ext id="flash.text:TextField" />
+    <ext id="Object" />
+    <ext id="flash.display:MovieClip" />
+    <ext id="flash.net:URLVariables" />
+    <ext id="flash.display:Sprite" />
+    <ext id="flash.display3D:IndexBuffer3D" />
+  </external-defs>
+</report>
